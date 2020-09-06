@@ -12,7 +12,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.InsertionsGenOptions}
  */
-public  final class InsertionsGenOptions extends
+public final class InsertionsGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.InsertionsGenOptions)
     InsertionsGenOptionsOrBuilder {
@@ -123,6 +123,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+     * @return The enum numeric value on the wire for point.
      */
     int getPointValue();
     /**
@@ -131,6 +132,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+     * @return The point.
      */
     com.github.marcoferrer.krotoplus.config.InsertionPoint getPoint();
 
@@ -143,6 +145,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @return A list containing the content.
      */
     java.util.List<java.lang.String>
         getContentList();
@@ -155,6 +158,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @return The count of content.
      */
     int getContentCount();
     /**
@@ -166,6 +170,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @param index The index of the element to return.
+     * @return The content at the given index.
      */
     java.lang.String getContent(int index);
     /**
@@ -177,6 +183,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the content at the given index.
      */
     com.google.protobuf.ByteString
         getContentBytes(int index);
@@ -193,6 +201,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @return A list containing the scriptPath.
      */
     java.util.List<java.lang.String>
         getScriptPathList();
@@ -208,6 +217,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @return The count of scriptPath.
      */
     int getScriptPathCount();
     /**
@@ -222,6 +232,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @param index The index of the element to return.
+     * @return The scriptPath at the given index.
      */
     java.lang.String getScriptPath(int index);
     /**
@@ -236,6 +248,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the scriptPath at the given index.
      */
     com.google.protobuf.ByteString
         getScriptPathBytes(int index);
@@ -246,6 +260,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 4;</code>
+     * @return The scriptBundle.
      */
     java.lang.String getScriptBundle();
     /**
@@ -254,6 +269,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 4;</code>
+     * @return The bytes for scriptBundle.
      */
     com.google.protobuf.ByteString
         getScriptBundleBytes();
@@ -265,7 +281,7 @@ private static final long serialVersionUID = 0L;
    *
    * Protobuf type {@code krotoplus.compiler.InsertionsGenOptions.Entry}
    */
-  public  static final class Entry extends
+  public static final class Entry extends
       com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:krotoplus.compiler.InsertionsGenOptions.Entry)
       EntryOrBuilder {
@@ -388,8 +404,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+     * @return The enum numeric value on the wire for point.
      */
-    public int getPointValue() {
+    @java.lang.Override public int getPointValue() {
       return point_;
     }
     /**
@@ -398,8 +415,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+     * @return The point.
      */
-    public com.github.marcoferrer.krotoplus.config.InsertionPoint getPoint() {
+    @java.lang.Override public com.github.marcoferrer.krotoplus.config.InsertionPoint getPoint() {
       @SuppressWarnings("deprecation")
       com.github.marcoferrer.krotoplus.config.InsertionPoint result = com.github.marcoferrer.krotoplus.config.InsertionPoint.valueOf(point_);
       return result == null ? com.github.marcoferrer.krotoplus.config.InsertionPoint.UNRECOGNIZED : result;
@@ -416,6 +434,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @return A list containing the content.
      */
     public com.google.protobuf.ProtocolStringList
         getContentList() {
@@ -430,6 +449,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @return The count of content.
      */
     public int getContentCount() {
       return content_.size();
@@ -443,6 +463,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @param index The index of the element to return.
+     * @return The content at the given index.
      */
     public java.lang.String getContent(int index) {
       return content_.get(index);
@@ -456,6 +478,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string content = 2;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the content at the given index.
      */
     public com.google.protobuf.ByteString
         getContentBytes(int index) {
@@ -476,6 +500,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @return A list containing the scriptPath.
      */
     public com.google.protobuf.ProtocolStringList
         getScriptPathList() {
@@ -493,6 +518,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @return The count of scriptPath.
      */
     public int getScriptPathCount() {
       return scriptPath_.size();
@@ -509,6 +535,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @param index The index of the element to return.
+     * @return The scriptPath at the given index.
      */
     public java.lang.String getScriptPath(int index) {
       return scriptPath_.get(index);
@@ -525,6 +553,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 3;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the scriptPath at the given index.
      */
     public com.google.protobuf.ByteString
         getScriptPathBytes(int index) {
@@ -539,7 +569,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 4;</code>
+     * @return The scriptBundle.
      */
+    @java.lang.Override
     public java.lang.String getScriptBundle() {
       java.lang.Object ref = scriptBundle_;
       if (ref instanceof java.lang.String) {
@@ -558,7 +590,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 4;</code>
+     * @return The bytes for scriptBundle.
      */
+    @java.lang.Override
     public com.google.protobuf.ByteString
         getScriptBundleBytes() {
       java.lang.Object ref = scriptBundle_;
@@ -972,8 +1006,9 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+       * @return The enum numeric value on the wire for point.
        */
-      public int getPointValue() {
+      @java.lang.Override public int getPointValue() {
         return point_;
       }
       /**
@@ -982,8 +1017,11 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+       * @param value The enum numeric value on the wire for point to set.
+       * @return This builder for chaining.
        */
       public Builder setPointValue(int value) {
+        
         point_ = value;
         onChanged();
         return this;
@@ -994,7 +1032,9 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+       * @return The point.
        */
+      @java.lang.Override
       public com.github.marcoferrer.krotoplus.config.InsertionPoint getPoint() {
         @SuppressWarnings("deprecation")
         com.github.marcoferrer.krotoplus.config.InsertionPoint result = com.github.marcoferrer.krotoplus.config.InsertionPoint.valueOf(point_);
@@ -1006,6 +1046,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+       * @param value The point to set.
+       * @return This builder for chaining.
        */
       public Builder setPoint(com.github.marcoferrer.krotoplus.config.InsertionPoint value) {
         if (value == null) {
@@ -1022,6 +1064,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>.krotoplus.compiler.InsertionPoint point = 1;</code>
+       * @return This builder for chaining.
        */
       public Builder clearPoint() {
         
@@ -1046,6 +1089,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @return A list containing the content.
        */
       public com.google.protobuf.ProtocolStringList
           getContentList() {
@@ -1060,6 +1104,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @return The count of content.
        */
       public int getContentCount() {
         return content_.size();
@@ -1073,6 +1118,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param index The index of the element to return.
+       * @return The content at the given index.
        */
       public java.lang.String getContent(int index) {
         return content_.get(index);
@@ -1086,6 +1133,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the content at the given index.
        */
       public com.google.protobuf.ByteString
           getContentBytes(int index) {
@@ -1100,6 +1149,9 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param index The index to set the value at.
+       * @param value The content to set.
+       * @return This builder for chaining.
        */
       public Builder setContent(
           int index, java.lang.String value) {
@@ -1120,6 +1172,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param value The content to add.
+       * @return This builder for chaining.
        */
       public Builder addContent(
           java.lang.String value) {
@@ -1140,6 +1194,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param values The content to add.
+       * @return This builder for chaining.
        */
       public Builder addAllContent(
           java.lang.Iterable<java.lang.String> values) {
@@ -1158,6 +1214,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @return This builder for chaining.
        */
       public Builder clearContent() {
         content_ = com.google.protobuf.LazyStringArrayList.EMPTY;
@@ -1174,6 +1231,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string content = 2;</code>
+       * @param value The bytes of the content to add.
+       * @return This builder for chaining.
        */
       public Builder addContentBytes(
           com.google.protobuf.ByteString value) {
@@ -1206,6 +1265,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @return A list containing the scriptPath.
        */
       public com.google.protobuf.ProtocolStringList
           getScriptPathList() {
@@ -1223,6 +1283,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @return The count of scriptPath.
        */
       public int getScriptPathCount() {
         return scriptPath_.size();
@@ -1239,6 +1300,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param index The index of the element to return.
+       * @return The scriptPath at the given index.
        */
       public java.lang.String getScriptPath(int index) {
         return scriptPath_.get(index);
@@ -1255,6 +1318,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the scriptPath at the given index.
        */
       public com.google.protobuf.ByteString
           getScriptPathBytes(int index) {
@@ -1272,6 +1337,9 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param index The index to set the value at.
+       * @param value The scriptPath to set.
+       * @return This builder for chaining.
        */
       public Builder setScriptPath(
           int index, java.lang.String value) {
@@ -1295,6 +1363,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param value The scriptPath to add.
+       * @return This builder for chaining.
        */
       public Builder addScriptPath(
           java.lang.String value) {
@@ -1318,6 +1388,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param values The scriptPath to add.
+       * @return This builder for chaining.
        */
       public Builder addAllScriptPath(
           java.lang.Iterable<java.lang.String> values) {
@@ -1339,6 +1411,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @return This builder for chaining.
        */
       public Builder clearScriptPath() {
         scriptPath_ = com.google.protobuf.LazyStringArrayList.EMPTY;
@@ -1358,6 +1431,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>repeated string script_path = 3;</code>
+       * @param value The bytes of the scriptPath to add.
+       * @return This builder for chaining.
        */
       public Builder addScriptPathBytes(
           com.google.protobuf.ByteString value) {
@@ -1378,6 +1453,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>string script_bundle = 4;</code>
+       * @return The scriptBundle.
        */
       public java.lang.String getScriptBundle() {
         java.lang.Object ref = scriptBundle_;
@@ -1397,6 +1473,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>string script_bundle = 4;</code>
+       * @return The bytes for scriptBundle.
        */
       public com.google.protobuf.ByteString
           getScriptBundleBytes() {
@@ -1417,6 +1494,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>string script_bundle = 4;</code>
+       * @param value The scriptBundle to set.
+       * @return This builder for chaining.
        */
       public Builder setScriptBundle(
           java.lang.String value) {
@@ -1434,6 +1513,7 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>string script_bundle = 4;</code>
+       * @return This builder for chaining.
        */
       public Builder clearScriptBundle() {
         
@@ -1447,6 +1527,8 @@ private static final long serialVersionUID = 0L;
        * </pre>
        *
        * <code>string script_bundle = 4;</code>
+       * @param value The bytes for scriptBundle to set.
+       * @return This builder for chaining.
        */
       public Builder setScriptBundleBytes(
           com.google.protobuf.ByteString value) {
@@ -1521,7 +1603,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -1532,7 +1616,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -1544,6 +1630,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -1557,6 +1644,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions.Entry entry = 2;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.InsertionsGenOptions.Entry> getEntryList() {
     return entry_;
   }
@@ -1567,6 +1655,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions.Entry entry = 2;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.InsertionsGenOptions.EntryOrBuilder> 
       getEntryOrBuilderList() {
     return entry_;
@@ -1578,6 +1667,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions.Entry entry = 2;</code>
    */
+  @java.lang.Override
   public int getEntryCount() {
     return entry_.size();
   }
@@ -1588,6 +1678,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions.Entry entry = 2;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.InsertionsGenOptions.Entry getEntry(int index) {
     return entry_.get(index);
   }
@@ -1598,6 +1689,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions.Entry entry = 2;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.InsertionsGenOptions.EntryOrBuilder getEntryOrBuilder(
       int index) {
     return entry_.get(index);
@@ -1991,6 +2083,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -2002,6 +2095,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {

@@ -12,7 +12,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.ExtendableMessagesGenOptions}
  */
-public  final class ExtendableMessagesGenOptions extends
+public final class ExtendableMessagesGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.ExtendableMessagesGenOptions)
     ExtendableMessagesGenOptionsOrBuilder {
@@ -136,7 +136,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -147,7 +149,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -159,6 +163,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -171,7 +176,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_field_name = 2;</code>
+   * @return The companionFieldName.
    */
+  @java.lang.Override
   public java.lang.String getCompanionFieldName() {
     java.lang.Object ref = companionFieldName_;
     if (ref instanceof java.lang.String) {
@@ -190,7 +197,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_field_name = 2;</code>
+   * @return The bytes for companionFieldName.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getCompanionFieldNameBytes() {
     java.lang.Object ref = companionFieldName_;
@@ -213,7 +222,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_class_name = 3;</code>
+   * @return The companionClassName.
    */
+  @java.lang.Override
   public java.lang.String getCompanionClassName() {
     java.lang.Object ref = companionClassName_;
     if (ref instanceof java.lang.String) {
@@ -232,7 +243,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_class_name = 3;</code>
+   * @return The bytes for companionClassName.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getCompanionClassNameBytes() {
     java.lang.Object ref = companionClassName_;
@@ -259,7 +272,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_extends = 4;</code>
+   * @return The companionExtends.
    */
+  @java.lang.Override
   public java.lang.String getCompanionExtends() {
     java.lang.Object ref = companionExtends_;
     if (ref instanceof java.lang.String) {
@@ -282,7 +297,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_extends = 4;</code>
+   * @return The bytes for companionExtends.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getCompanionExtendsBytes() {
     java.lang.Object ref = companionExtends_;
@@ -308,7 +325,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_implements = 5;</code>
+   * @return The companionImplements.
    */
+  @java.lang.Override
   public java.lang.String getCompanionImplements() {
     java.lang.Object ref = companionImplements_;
     if (ref instanceof java.lang.String) {
@@ -330,7 +349,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string companion_implements = 5;</code>
+   * @return The bytes for companionImplements.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getCompanionImplementsBytes() {
     java.lang.Object ref = companionImplements_;
@@ -744,6 +765,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -755,6 +777,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {
@@ -903,6 +926,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_field_name = 2;</code>
+     * @return The companionFieldName.
      */
     public java.lang.String getCompanionFieldName() {
       java.lang.Object ref = companionFieldName_;
@@ -922,6 +946,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_field_name = 2;</code>
+     * @return The bytes for companionFieldName.
      */
     public com.google.protobuf.ByteString
         getCompanionFieldNameBytes() {
@@ -942,6 +967,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_field_name = 2;</code>
+     * @param value The companionFieldName to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionFieldName(
         java.lang.String value) {
@@ -959,6 +986,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_field_name = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearCompanionFieldName() {
       
@@ -972,6 +1000,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_field_name = 2;</code>
+     * @param value The bytes for companionFieldName to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionFieldNameBytes(
         com.google.protobuf.ByteString value) {
@@ -992,6 +1022,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_class_name = 3;</code>
+     * @return The companionClassName.
      */
     public java.lang.String getCompanionClassName() {
       java.lang.Object ref = companionClassName_;
@@ -1011,6 +1042,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_class_name = 3;</code>
+     * @return The bytes for companionClassName.
      */
     public com.google.protobuf.ByteString
         getCompanionClassNameBytes() {
@@ -1031,6 +1063,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_class_name = 3;</code>
+     * @param value The companionClassName to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionClassName(
         java.lang.String value) {
@@ -1048,6 +1082,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_class_name = 3;</code>
+     * @return This builder for chaining.
      */
     public Builder clearCompanionClassName() {
       
@@ -1061,6 +1096,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_class_name = 3;</code>
+     * @param value The bytes for companionClassName to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionClassNameBytes(
         com.google.protobuf.ByteString value) {
@@ -1085,6 +1122,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_extends = 4;</code>
+     * @return The companionExtends.
      */
     public java.lang.String getCompanionExtends() {
       java.lang.Object ref = companionExtends_;
@@ -1108,6 +1146,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_extends = 4;</code>
+     * @return The bytes for companionExtends.
      */
     public com.google.protobuf.ByteString
         getCompanionExtendsBytes() {
@@ -1132,6 +1171,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_extends = 4;</code>
+     * @param value The companionExtends to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionExtends(
         java.lang.String value) {
@@ -1153,6 +1194,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_extends = 4;</code>
+     * @return This builder for chaining.
      */
     public Builder clearCompanionExtends() {
       
@@ -1170,6 +1212,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_extends = 4;</code>
+     * @param value The bytes for companionExtends to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionExtendsBytes(
         com.google.protobuf.ByteString value) {
@@ -1193,6 +1237,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_implements = 5;</code>
+     * @return The companionImplements.
      */
     public java.lang.String getCompanionImplements() {
       java.lang.Object ref = companionImplements_;
@@ -1215,6 +1260,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_implements = 5;</code>
+     * @return The bytes for companionImplements.
      */
     public com.google.protobuf.ByteString
         getCompanionImplementsBytes() {
@@ -1238,6 +1284,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_implements = 5;</code>
+     * @param value The companionImplements to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionImplements(
         java.lang.String value) {
@@ -1258,6 +1306,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_implements = 5;</code>
+     * @return This builder for chaining.
      */
     public Builder clearCompanionImplements() {
       
@@ -1274,6 +1323,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string companion_implements = 5;</code>
+     * @param value The bytes for companionImplements to set.
+     * @return This builder for chaining.
      */
     public Builder setCompanionImplementsBytes(
         com.google.protobuf.ByteString value) {

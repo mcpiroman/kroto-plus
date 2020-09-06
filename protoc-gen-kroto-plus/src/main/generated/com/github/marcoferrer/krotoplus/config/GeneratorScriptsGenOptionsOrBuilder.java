@@ -14,6 +14,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
   boolean hasFilter();
   /**
@@ -23,6 +24,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
   com.github.marcoferrer.krotoplus.config.FileFilter getFilter();
   /**
@@ -48,6 +50,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @return A list containing the scriptPath.
    */
   java.util.List<java.lang.String>
       getScriptPathList();
@@ -64,6 +67,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @return The count of scriptPath.
    */
   int getScriptPathCount();
   /**
@@ -79,6 +83,8 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @param index The index of the element to return.
+   * @return The scriptPath at the given index.
    */
   java.lang.String getScriptPath(int index);
   /**
@@ -94,6 +100,8 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the scriptPath at the given index.
    */
   com.google.protobuf.ByteString
       getScriptPathBytes(int index);
@@ -104,6 +112,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string script_bundle = 3;</code>
+   * @return The scriptBundle.
    */
   java.lang.String getScriptBundle();
   /**
@@ -112,6 +121,7 @@ public interface GeneratorScriptsGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string script_bundle = 3;</code>
+   * @return The bytes for scriptBundle.
    */
   com.google.protobuf.ByteString
       getScriptBundleBytes();

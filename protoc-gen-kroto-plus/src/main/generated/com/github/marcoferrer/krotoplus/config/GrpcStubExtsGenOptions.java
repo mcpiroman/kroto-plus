@@ -10,7 +10,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.GrpcStubExtsGenOptions}
  */
-public  final class GrpcStubExtsGenOptions extends
+public final class GrpcStubExtsGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.GrpcStubExtsGenOptions)
     GrpcStubExtsGenOptionsOrBuilder {
@@ -111,7 +111,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -122,7 +124,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -134,6 +138,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -147,7 +152,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bool support_coroutines = 2;</code>
+   * @return The supportCoroutines.
    */
+  @java.lang.Override
   public boolean getSupportCoroutines() {
     return supportCoroutines_;
   }
@@ -499,6 +506,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -510,6 +518,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {
@@ -659,7 +668,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool support_coroutines = 2;</code>
+     * @return The supportCoroutines.
      */
+    @java.lang.Override
     public boolean getSupportCoroutines() {
       return supportCoroutines_;
     }
@@ -670,6 +681,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool support_coroutines = 2;</code>
+     * @param value The supportCoroutines to set.
+     * @return This builder for chaining.
      */
     public Builder setSupportCoroutines(boolean value) {
       
@@ -684,6 +697,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool support_coroutines = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearSupportCoroutines() {
       

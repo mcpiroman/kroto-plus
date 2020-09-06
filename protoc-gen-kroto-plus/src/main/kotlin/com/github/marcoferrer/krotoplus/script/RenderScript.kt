@@ -17,7 +17,7 @@
 package com.github.marcoferrer.krotoplus.script
 
 import com.github.marcoferrer.krotoplus.generators.Generator
-import org.jetbrains.kotlin.script.tryCreateCallableMapping
+import org.jetbrains.kotlin.utils.tryCreateCallableMapping
 import java.lang.reflect.InvocationTargetException
 import kotlin.reflect.KClass
 import kotlin.reflect.KFunction

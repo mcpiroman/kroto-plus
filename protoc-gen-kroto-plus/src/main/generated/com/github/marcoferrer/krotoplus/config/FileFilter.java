@@ -13,7 +13,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.FileFilter}
  */
-public  final class FileFilter extends
+public final class FileFilter extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.FileFilter)
     FileFilterOrBuilder {
@@ -127,6 +127,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @return A list containing the includePath.
    */
   public com.google.protobuf.ProtocolStringList
       getIncludePathList() {
@@ -143,6 +144,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @return The count of includePath.
    */
   public int getIncludePathCount() {
     return includePath_.size();
@@ -158,6 +160,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @param index The index of the element to return.
+   * @return The includePath at the given index.
    */
   public java.lang.String getIncludePath(int index) {
     return includePath_.get(index);
@@ -173,6 +177,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the includePath at the given index.
    */
   public com.google.protobuf.ByteString
       getIncludePathBytes(int index) {
@@ -189,6 +195,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @return A list containing the excludePath.
    */
   public com.google.protobuf.ProtocolStringList
       getExcludePathList() {
@@ -202,6 +209,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @return The count of excludePath.
    */
   public int getExcludePathCount() {
     return excludePath_.size();
@@ -214,6 +222,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @param index The index of the element to return.
+   * @return The excludePath at the given index.
    */
   public java.lang.String getExcludePath(int index) {
     return excludePath_.get(index);
@@ -226,6 +236,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the excludePath at the given index.
    */
   public com.google.protobuf.ByteString
       getExcludePathBytes(int index) {
@@ -612,6 +624,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @return A list containing the includePath.
      */
     public com.google.protobuf.ProtocolStringList
         getIncludePathList() {
@@ -628,6 +641,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @return The count of includePath.
      */
     public int getIncludePathCount() {
       return includePath_.size();
@@ -643,6 +657,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param index The index of the element to return.
+     * @return The includePath at the given index.
      */
     public java.lang.String getIncludePath(int index) {
       return includePath_.get(index);
@@ -658,6 +674,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the includePath at the given index.
      */
     public com.google.protobuf.ByteString
         getIncludePathBytes(int index) {
@@ -674,6 +692,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param index The index to set the value at.
+     * @param value The includePath to set.
+     * @return This builder for chaining.
      */
     public Builder setIncludePath(
         int index, java.lang.String value) {
@@ -696,6 +717,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param value The includePath to add.
+     * @return This builder for chaining.
      */
     public Builder addIncludePath(
         java.lang.String value) {
@@ -718,6 +741,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param values The includePath to add.
+     * @return This builder for chaining.
      */
     public Builder addAllIncludePath(
         java.lang.Iterable<java.lang.String> values) {
@@ -738,6 +763,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @return This builder for chaining.
      */
     public Builder clearIncludePath() {
       includePath_ = com.google.protobuf.LazyStringArrayList.EMPTY;
@@ -756,6 +782,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string include_path = 1;</code>
+     * @param value The bytes of the includePath to add.
+     * @return This builder for chaining.
      */
     public Builder addIncludePathBytes(
         com.google.protobuf.ByteString value) {
@@ -784,6 +812,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @return A list containing the excludePath.
      */
     public com.google.protobuf.ProtocolStringList
         getExcludePathList() {
@@ -797,6 +826,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @return The count of excludePath.
      */
     public int getExcludePathCount() {
       return excludePath_.size();
@@ -809,6 +839,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param index The index of the element to return.
+     * @return The excludePath at the given index.
      */
     public java.lang.String getExcludePath(int index) {
       return excludePath_.get(index);
@@ -821,6 +853,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the excludePath at the given index.
      */
     public com.google.protobuf.ByteString
         getExcludePathBytes(int index) {
@@ -834,6 +868,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param index The index to set the value at.
+     * @param value The excludePath to set.
+     * @return This builder for chaining.
      */
     public Builder setExcludePath(
         int index, java.lang.String value) {
@@ -853,6 +890,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param value The excludePath to add.
+     * @return This builder for chaining.
      */
     public Builder addExcludePath(
         java.lang.String value) {
@@ -872,6 +911,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param values The excludePath to add.
+     * @return This builder for chaining.
      */
     public Builder addAllExcludePath(
         java.lang.Iterable<java.lang.String> values) {
@@ -889,6 +930,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearExcludePath() {
       excludePath_ = com.google.protobuf.LazyStringArrayList.EMPTY;
@@ -904,6 +946,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string exclude_path = 2;</code>
+     * @param value The bytes of the excludePath to add.
+     * @return This builder for chaining.
      */
     public Builder addExcludePathBytes(
         com.google.protobuf.ByteString value) {

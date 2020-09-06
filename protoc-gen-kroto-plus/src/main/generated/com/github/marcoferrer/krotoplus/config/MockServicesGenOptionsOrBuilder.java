@@ -14,6 +14,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
   boolean hasFilter();
   /**
@@ -23,6 +24,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
   com.github.marcoferrer.krotoplus.config.FileFilter getFilter();
   /**
@@ -42,6 +44,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>bool implement_as_object = 2;</code>
+   * @return The implementAsObject.
    */
   boolean getImplementAsObject();
 
@@ -52,6 +55,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>bool generate_service_list = 3;</code>
+   * @return The generateServiceList.
    */
   boolean getGenerateServiceList();
 
@@ -61,6 +65,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string service_list_package = 4;</code>
+   * @return The serviceListPackage.
    */
   java.lang.String getServiceListPackage();
   /**
@@ -69,6 +74,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string service_list_package = 4;</code>
+   * @return The bytes for serviceListPackage.
    */
   com.google.protobuf.ByteString
       getServiceListPackageBytes();
@@ -79,6 +85,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string service_list_name = 5;</code>
+   * @return The serviceListName.
    */
   java.lang.String getServiceListName();
   /**
@@ -87,6 +94,7 @@ public interface MockServicesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string service_list_name = 5;</code>
+   * @return The bytes for serviceListName.
    */
   com.google.protobuf.ByteString
       getServiceListNameBytes();

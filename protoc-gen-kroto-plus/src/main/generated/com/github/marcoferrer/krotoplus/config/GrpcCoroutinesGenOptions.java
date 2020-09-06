@@ -10,7 +10,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.GrpcCoroutinesGenOptions}
  */
-public  final class GrpcCoroutinesGenOptions extends
+public final class GrpcCoroutinesGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.GrpcCoroutinesGenOptions)
     GrpcCoroutinesGenOptionsOrBuilder {
@@ -106,7 +106,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -117,7 +119,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -129,6 +133,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -462,6 +467,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -473,6 +479,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {

@@ -14,6 +14,7 @@ public interface ProtoBuildersGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
   boolean hasFilter();
   /**
@@ -23,6 +24,7 @@ public interface ProtoBuildersGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
   com.github.marcoferrer.krotoplus.config.FileFilter getFilter();
   /**
@@ -46,6 +48,7 @@ public interface ProtoBuildersGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>bool unwrap_builders = 2;</code>
+   * @return The unwrapBuilders.
    */
   boolean getUnwrapBuilders();
 
@@ -58,6 +61,7 @@ public interface ProtoBuildersGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>bool use_dsl_markers = 3;</code>
+   * @return The useDslMarkers.
    */
   boolean getUseDslMarkers();
 }

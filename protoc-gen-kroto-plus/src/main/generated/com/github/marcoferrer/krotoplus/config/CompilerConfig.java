@@ -10,7 +10,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.CompilerConfig}
  */
-public  final class CompilerConfig extends
+public final class CompilerConfig extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.CompilerConfig)
     CompilerConfigOrBuilder {
@@ -185,6 +185,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcStubExtsGenOptions grpc_stub_exts = 20;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.GrpcStubExtsGenOptions> getGrpcStubExtsList() {
     return grpcStubExts_;
   }
@@ -195,6 +196,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcStubExtsGenOptions grpc_stub_exts = 20;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.GrpcStubExtsGenOptionsOrBuilder> 
       getGrpcStubExtsOrBuilderList() {
     return grpcStubExts_;
@@ -206,6 +208,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcStubExtsGenOptions grpc_stub_exts = 20;</code>
    */
+  @java.lang.Override
   public int getGrpcStubExtsCount() {
     return grpcStubExts_.size();
   }
@@ -216,6 +219,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcStubExtsGenOptions grpc_stub_exts = 20;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GrpcStubExtsGenOptions getGrpcStubExts(int index) {
     return grpcStubExts_.get(index);
   }
@@ -226,6 +230,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcStubExtsGenOptions grpc_stub_exts = 20;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GrpcStubExtsGenOptionsOrBuilder getGrpcStubExtsOrBuilder(
       int index) {
     return grpcStubExts_.get(index);
@@ -240,6 +245,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.MockServicesGenOptions mock_services = 21;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.MockServicesGenOptions> getMockServicesList() {
     return mockServices_;
   }
@@ -250,6 +256,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.MockServicesGenOptions mock_services = 21;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.MockServicesGenOptionsOrBuilder> 
       getMockServicesOrBuilderList() {
     return mockServices_;
@@ -261,6 +268,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.MockServicesGenOptions mock_services = 21;</code>
    */
+  @java.lang.Override
   public int getMockServicesCount() {
     return mockServices_.size();
   }
@@ -271,6 +279,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.MockServicesGenOptions mock_services = 21;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.MockServicesGenOptions getMockServices(int index) {
     return mockServices_.get(index);
   }
@@ -281,6 +290,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.MockServicesGenOptions mock_services = 21;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.MockServicesGenOptionsOrBuilder getMockServicesOrBuilder(
       int index) {
     return mockServices_.get(index);
@@ -295,6 +305,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ProtoBuildersGenOptions proto_builders = 22;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.ProtoBuildersGenOptions> getProtoBuildersList() {
     return protoBuilders_;
   }
@@ -305,6 +316,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ProtoBuildersGenOptions proto_builders = 22;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.ProtoBuildersGenOptionsOrBuilder> 
       getProtoBuildersOrBuilderList() {
     return protoBuilders_;
@@ -316,6 +328,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ProtoBuildersGenOptions proto_builders = 22;</code>
    */
+  @java.lang.Override
   public int getProtoBuildersCount() {
     return protoBuilders_.size();
   }
@@ -326,6 +339,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ProtoBuildersGenOptions proto_builders = 22;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.ProtoBuildersGenOptions getProtoBuilders(int index) {
     return protoBuilders_.get(index);
   }
@@ -336,6 +350,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ProtoBuildersGenOptions proto_builders = 22;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.ProtoBuildersGenOptionsOrBuilder getProtoBuildersOrBuilder(
       int index) {
     return protoBuilders_.get(index);
@@ -350,6 +365,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ExtendableMessagesGenOptions extendable_messages = 23;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.ExtendableMessagesGenOptions> getExtendableMessagesList() {
     return extendableMessages_;
   }
@@ -360,6 +376,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ExtendableMessagesGenOptions extendable_messages = 23;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.ExtendableMessagesGenOptionsOrBuilder> 
       getExtendableMessagesOrBuilderList() {
     return extendableMessages_;
@@ -371,6 +388,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ExtendableMessagesGenOptions extendable_messages = 23;</code>
    */
+  @java.lang.Override
   public int getExtendableMessagesCount() {
     return extendableMessages_.size();
   }
@@ -381,6 +399,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ExtendableMessagesGenOptions extendable_messages = 23;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.ExtendableMessagesGenOptions getExtendableMessages(int index) {
     return extendableMessages_.get(index);
   }
@@ -391,6 +410,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.ExtendableMessagesGenOptions extendable_messages = 23;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.ExtendableMessagesGenOptionsOrBuilder getExtendableMessagesOrBuilder(
       int index) {
     return extendableMessages_.get(index);
@@ -405,6 +425,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions insertions = 24;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.InsertionsGenOptions> getInsertionsList() {
     return insertions_;
   }
@@ -415,6 +436,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions insertions = 24;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.InsertionsGenOptionsOrBuilder> 
       getInsertionsOrBuilderList() {
     return insertions_;
@@ -426,6 +448,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions insertions = 24;</code>
    */
+  @java.lang.Override
   public int getInsertionsCount() {
     return insertions_.size();
   }
@@ -436,6 +459,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions insertions = 24;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.InsertionsGenOptions getInsertions(int index) {
     return insertions_.get(index);
   }
@@ -446,6 +470,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.InsertionsGenOptions insertions = 24;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.InsertionsGenOptionsOrBuilder getInsertionsOrBuilder(
       int index) {
     return insertions_.get(index);
@@ -460,6 +485,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GeneratorScriptsGenOptions generator_scripts = 25;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.GeneratorScriptsGenOptions> getGeneratorScriptsList() {
     return generatorScripts_;
   }
@@ -470,6 +496,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GeneratorScriptsGenOptions generator_scripts = 25;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.GeneratorScriptsGenOptionsOrBuilder> 
       getGeneratorScriptsOrBuilderList() {
     return generatorScripts_;
@@ -481,6 +508,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GeneratorScriptsGenOptions generator_scripts = 25;</code>
    */
+  @java.lang.Override
   public int getGeneratorScriptsCount() {
     return generatorScripts_.size();
   }
@@ -491,6 +519,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GeneratorScriptsGenOptions generator_scripts = 25;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GeneratorScriptsGenOptions getGeneratorScripts(int index) {
     return generatorScripts_.get(index);
   }
@@ -501,6 +530,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GeneratorScriptsGenOptions generator_scripts = 25;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GeneratorScriptsGenOptionsOrBuilder getGeneratorScriptsOrBuilder(
       int index) {
     return generatorScripts_.get(index);
@@ -515,6 +545,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcCoroutinesGenOptions grpc_coroutines = 26;</code>
    */
+  @java.lang.Override
   public java.util.List<com.github.marcoferrer.krotoplus.config.GrpcCoroutinesGenOptions> getGrpcCoroutinesList() {
     return grpcCoroutines_;
   }
@@ -525,6 +556,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcCoroutinesGenOptions grpc_coroutines = 26;</code>
    */
+  @java.lang.Override
   public java.util.List<? extends com.github.marcoferrer.krotoplus.config.GrpcCoroutinesGenOptionsOrBuilder> 
       getGrpcCoroutinesOrBuilderList() {
     return grpcCoroutines_;
@@ -536,6 +568,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcCoroutinesGenOptions grpc_coroutines = 26;</code>
    */
+  @java.lang.Override
   public int getGrpcCoroutinesCount() {
     return grpcCoroutines_.size();
   }
@@ -546,6 +579,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcCoroutinesGenOptions grpc_coroutines = 26;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GrpcCoroutinesGenOptions getGrpcCoroutines(int index) {
     return grpcCoroutines_.get(index);
   }
@@ -556,6 +590,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>repeated .krotoplus.compiler.GrpcCoroutinesGenOptions grpc_coroutines = 26;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.GrpcCoroutinesGenOptionsOrBuilder getGrpcCoroutinesOrBuilder(
       int index) {
     return grpcCoroutines_.get(index);

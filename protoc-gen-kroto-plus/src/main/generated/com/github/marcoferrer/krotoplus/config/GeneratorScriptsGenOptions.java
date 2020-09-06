@@ -10,7 +10,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.GeneratorScriptsGenOptions}
  */
-public  final class GeneratorScriptsGenOptions extends
+public final class GeneratorScriptsGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.GeneratorScriptsGenOptions)
     GeneratorScriptsGenOptionsOrBuilder {
@@ -127,7 +127,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -138,7 +140,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -150,6 +154,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -169,6 +174,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @return A list containing the scriptPath.
    */
   public com.google.protobuf.ProtocolStringList
       getScriptPathList() {
@@ -187,6 +193,7 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @return The count of scriptPath.
    */
   public int getScriptPathCount() {
     return scriptPath_.size();
@@ -204,6 +211,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @param index The index of the element to return.
+   * @return The scriptPath at the given index.
    */
   public java.lang.String getScriptPath(int index) {
     return scriptPath_.get(index);
@@ -221,6 +230,8 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>repeated string script_path = 2;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the scriptPath at the given index.
    */
   public com.google.protobuf.ByteString
       getScriptPathBytes(int index) {
@@ -235,7 +246,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string script_bundle = 3;</code>
+   * @return The scriptBundle.
    */
+  @java.lang.Override
   public java.lang.String getScriptBundle() {
     java.lang.Object ref = scriptBundle_;
     if (ref instanceof java.lang.String) {
@@ -254,7 +267,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string script_bundle = 3;</code>
+   * @return The bytes for scriptBundle.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getScriptBundleBytes() {
     java.lang.Object ref = scriptBundle_;
@@ -651,6 +666,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -662,6 +678,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {
@@ -823,6 +840,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @return A list containing the scriptPath.
      */
     public com.google.protobuf.ProtocolStringList
         getScriptPathList() {
@@ -841,6 +859,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @return The count of scriptPath.
      */
     public int getScriptPathCount() {
       return scriptPath_.size();
@@ -858,6 +877,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param index The index of the element to return.
+     * @return The scriptPath at the given index.
      */
     public java.lang.String getScriptPath(int index) {
       return scriptPath_.get(index);
@@ -875,6 +896,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the scriptPath at the given index.
      */
     public com.google.protobuf.ByteString
         getScriptPathBytes(int index) {
@@ -893,6 +916,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param index The index to set the value at.
+     * @param value The scriptPath to set.
+     * @return This builder for chaining.
      */
     public Builder setScriptPath(
         int index, java.lang.String value) {
@@ -917,6 +943,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param value The scriptPath to add.
+     * @return This builder for chaining.
      */
     public Builder addScriptPath(
         java.lang.String value) {
@@ -941,6 +969,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param values The scriptPath to add.
+     * @return This builder for chaining.
      */
     public Builder addAllScriptPath(
         java.lang.Iterable<java.lang.String> values) {
@@ -963,6 +993,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearScriptPath() {
       scriptPath_ = com.google.protobuf.LazyStringArrayList.EMPTY;
@@ -983,6 +1014,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>repeated string script_path = 2;</code>
+     * @param value The bytes of the scriptPath to add.
+     * @return This builder for chaining.
      */
     public Builder addScriptPathBytes(
         com.google.protobuf.ByteString value) {
@@ -1003,6 +1036,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 3;</code>
+     * @return The scriptBundle.
      */
     public java.lang.String getScriptBundle() {
       java.lang.Object ref = scriptBundle_;
@@ -1022,6 +1056,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 3;</code>
+     * @return The bytes for scriptBundle.
      */
     public com.google.protobuf.ByteString
         getScriptBundleBytes() {
@@ -1042,6 +1077,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 3;</code>
+     * @param value The scriptBundle to set.
+     * @return This builder for chaining.
      */
     public Builder setScriptBundle(
         java.lang.String value) {
@@ -1059,6 +1096,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 3;</code>
+     * @return This builder for chaining.
      */
     public Builder clearScriptBundle() {
       
@@ -1072,6 +1110,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string script_bundle = 3;</code>
+     * @param value The bytes for scriptBundle to set.
+     * @return This builder for chaining.
      */
     public Builder setScriptBundleBytes(
         com.google.protobuf.ByteString value) {

@@ -18,6 +18,7 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @return A list containing the includePath.
    */
   java.util.List<java.lang.String>
       getIncludePathList();
@@ -32,6 +33,7 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @return The count of includePath.
    */
   int getIncludePathCount();
   /**
@@ -45,6 +47,8 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @param index The index of the element to return.
+   * @return The includePath at the given index.
    */
   java.lang.String getIncludePath(int index);
   /**
@@ -58,6 +62,8 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string include_path = 1;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the includePath at the given index.
    */
   com.google.protobuf.ByteString
       getIncludePathBytes(int index);
@@ -70,6 +76,7 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @return A list containing the excludePath.
    */
   java.util.List<java.lang.String>
       getExcludePathList();
@@ -81,6 +88,7 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @return The count of excludePath.
    */
   int getExcludePathCount();
   /**
@@ -91,6 +99,8 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @param index The index of the element to return.
+   * @return The excludePath at the given index.
    */
   java.lang.String getExcludePath(int index);
   /**
@@ -101,6 +111,8 @@ public interface FileFilterOrBuilder extends
    * </pre>
    *
    * <code>repeated string exclude_path = 2;</code>
+   * @param index The index of the value to return.
+   * @return The bytes of the excludePath at the given index.
    */
   com.google.protobuf.ByteString
       getExcludePathBytes(int index);

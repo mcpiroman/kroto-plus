@@ -14,6 +14,7 @@ public interface GrpcCoroutinesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
   boolean hasFilter();
   /**
@@ -23,6 +24,7 @@ public interface GrpcCoroutinesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
   com.github.marcoferrer.krotoplus.config.FileFilter getFilter();
   /**

@@ -14,7 +14,7 @@ apply from: "$rootDir/publishing.gradle"
 description 'Kroto+ Proto-c Plugin'
 
 def mainClassName = 'com.github.marcoferrer.krotoplus.KrotoPlusProtoCMain'
-def pinnedKtVersion = '1.3.11'
+def pinnedKtVersion = '1.4.0'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 

@@ -14,6 +14,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
   boolean hasFilter();
   /**
@@ -23,6 +24,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
   com.github.marcoferrer.krotoplus.config.FileFilter getFilter();
   /**
@@ -41,6 +43,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_field_name = 2;</code>
+   * @return The companionFieldName.
    */
   java.lang.String getCompanionFieldName();
   /**
@@ -49,6 +52,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_field_name = 2;</code>
+   * @return The bytes for companionFieldName.
    */
   com.google.protobuf.ByteString
       getCompanionFieldNameBytes();
@@ -59,6 +63,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_class_name = 3;</code>
+   * @return The companionClassName.
    */
   java.lang.String getCompanionClassName();
   /**
@@ -67,6 +72,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_class_name = 3;</code>
+   * @return The bytes for companionClassName.
    */
   com.google.protobuf.ByteString
       getCompanionClassNameBytes();
@@ -81,6 +87,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_extends = 4;</code>
+   * @return The companionExtends.
    */
   java.lang.String getCompanionExtends();
   /**
@@ -93,6 +100,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_extends = 4;</code>
+   * @return The bytes for companionExtends.
    */
   com.google.protobuf.ByteString
       getCompanionExtendsBytes();
@@ -106,6 +114,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_implements = 5;</code>
+   * @return The companionImplements.
    */
   java.lang.String getCompanionImplements();
   /**
@@ -117,6 +126,7 @@ public interface ExtendableMessagesGenOptionsOrBuilder extends
    * </pre>
    *
    * <code>string companion_implements = 5;</code>
+   * @return The bytes for companionImplements.
    */
   com.google.protobuf.ByteString
       getCompanionImplementsBytes();

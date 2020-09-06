@@ -10,7 +10,7 @@ package com.github.marcoferrer.krotoplus.config;
  *
  * Protobuf type {@code krotoplus.compiler.MockServicesGenOptions}
  */
-public  final class MockServicesGenOptions extends
+public final class MockServicesGenOptions extends
     com.google.protobuf.GeneratedMessageV3 implements
     // @@protoc_insertion_point(message_implements:krotoplus.compiler.MockServicesGenOptions)
     MockServicesGenOptionsOrBuilder {
@@ -130,7 +130,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return Whether the filter field is set.
    */
+  @java.lang.Override
   public boolean hasFilter() {
     return filter_ != null;
   }
@@ -141,7 +143,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+   * @return The filter.
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
     return filter_ == null ? com.github.marcoferrer.krotoplus.config.FileFilter.getDefaultInstance() : filter_;
   }
@@ -153,6 +157,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
    */
+  @java.lang.Override
   public com.github.marcoferrer.krotoplus.config.FileFilterOrBuilder getFilterOrBuilder() {
     return getFilter();
   }
@@ -166,7 +171,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bool implement_as_object = 2;</code>
+   * @return The implementAsObject.
    */
+  @java.lang.Override
   public boolean getImplementAsObject() {
     return implementAsObject_;
   }
@@ -180,7 +187,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bool generate_service_list = 3;</code>
+   * @return The generateServiceList.
    */
+  @java.lang.Override
   public boolean getGenerateServiceList() {
     return generateServiceList_;
   }
@@ -193,7 +202,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string service_list_package = 4;</code>
+   * @return The serviceListPackage.
    */
+  @java.lang.Override
   public java.lang.String getServiceListPackage() {
     java.lang.Object ref = serviceListPackage_;
     if (ref instanceof java.lang.String) {
@@ -212,7 +223,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string service_list_package = 4;</code>
+   * @return The bytes for serviceListPackage.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getServiceListPackageBytes() {
     java.lang.Object ref = serviceListPackage_;
@@ -235,7 +248,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string service_list_name = 5;</code>
+   * @return The serviceListName.
    */
+  @java.lang.Override
   public java.lang.String getServiceListName() {
     java.lang.Object ref = serviceListName_;
     if (ref instanceof java.lang.String) {
@@ -254,7 +269,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string service_list_name = 5;</code>
+   * @return The bytes for serviceListName.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString
       getServiceListNameBytes() {
     java.lang.Object ref = serviceListName_;
@@ -668,6 +685,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return Whether the filter field is set.
      */
     public boolean hasFilter() {
       return filterBuilder_ != null || filter_ != null;
@@ -679,6 +697,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.krotoplus.compiler.FileFilter filter = 1;</code>
+     * @return The filter.
      */
     public com.github.marcoferrer.krotoplus.config.FileFilter getFilter() {
       if (filterBuilder_ == null) {
@@ -828,7 +847,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool implement_as_object = 2;</code>
+     * @return The implementAsObject.
      */
+    @java.lang.Override
     public boolean getImplementAsObject() {
       return implementAsObject_;
     }
@@ -839,6 +860,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool implement_as_object = 2;</code>
+     * @param value The implementAsObject to set.
+     * @return This builder for chaining.
      */
     public Builder setImplementAsObject(boolean value) {
       
@@ -853,6 +876,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool implement_as_object = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearImplementAsObject() {
       
@@ -869,7 +893,9 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool generate_service_list = 3;</code>
+     * @return The generateServiceList.
      */
+    @java.lang.Override
     public boolean getGenerateServiceList() {
       return generateServiceList_;
     }
@@ -880,6 +906,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool generate_service_list = 3;</code>
+     * @param value The generateServiceList to set.
+     * @return This builder for chaining.
      */
     public Builder setGenerateServiceList(boolean value) {
       
@@ -894,6 +922,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool generate_service_list = 3;</code>
+     * @return This builder for chaining.
      */
     public Builder clearGenerateServiceList() {
       
@@ -909,6 +938,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_package = 4;</code>
+     * @return The serviceListPackage.
      */
     public java.lang.String getServiceListPackage() {
       java.lang.Object ref = serviceListPackage_;
@@ -928,6 +958,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_package = 4;</code>
+     * @return The bytes for serviceListPackage.
      */
     public com.google.protobuf.ByteString
         getServiceListPackageBytes() {
@@ -948,6 +979,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_package = 4;</code>
+     * @param value The serviceListPackage to set.
+     * @return This builder for chaining.
      */
     public Builder setServiceListPackage(
         java.lang.String value) {
@@ -965,6 +998,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_package = 4;</code>
+     * @return This builder for chaining.
      */
     public Builder clearServiceListPackage() {
       
@@ -978,6 +1012,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_package = 4;</code>
+     * @param value The bytes for serviceListPackage to set.
+     * @return This builder for chaining.
      */
     public Builder setServiceListPackageBytes(
         com.google.protobuf.ByteString value) {
@@ -998,6 +1034,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_name = 5;</code>
+     * @return The serviceListName.
      */
     public java.lang.String getServiceListName() {
       java.lang.Object ref = serviceListName_;
@@ -1017,6 +1054,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_name = 5;</code>
+     * @return The bytes for serviceListName.
      */
     public com.google.protobuf.ByteString
         getServiceListNameBytes() {
@@ -1037,6 +1075,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_name = 5;</code>
+     * @param value The serviceListName to set.
+     * @return This builder for chaining.
      */
     public Builder setServiceListName(
         java.lang.String value) {
@@ -1054,6 +1094,7 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_name = 5;</code>
+     * @return This builder for chaining.
      */
     public Builder clearServiceListName() {
       
@@ -1067,6 +1108,8 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string service_list_name = 5;</code>
+     * @param value The bytes for serviceListName to set.
+     * @return This builder for chaining.
      */
     public Builder setServiceListNameBytes(
         com.google.protobuf.ByteString value) {
