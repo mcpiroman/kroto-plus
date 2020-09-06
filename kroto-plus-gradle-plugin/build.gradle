@@ -77,3 +77,9 @@ tasks.withType(Jar).each { task ->
         attributes 'Implementation-Version': project.version
     }
 }
+
+apply plugin: 'java'
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
