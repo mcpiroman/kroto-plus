@@ -174,3 +174,4 @@ protoc-gen-kroto-plus/generator-tests/build/
 test-api/build/
 test-api/grpc/build/
 test-api/java/build/
+protoc-gen-kroto-plus/src/main/generated/
