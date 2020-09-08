@@ -65,7 +65,7 @@ fun CompilerArgs.getCompilerConfig(): CompilerConfig {
 }
 
 private fun CompilerArgs.getConfigFile(): File {
-    val configPath = configPath ?: error("protoc option '$ARG_KEY_CONFIG_PATH' is not configured")
+    val configPath = configPath?.replace('?', ':') ?: error("protoc option '$ARG_KEY_CONFIG_PATH' is not configured")
 
     val configFile = File(USER_DIR).resolve(File(configPath))
 
